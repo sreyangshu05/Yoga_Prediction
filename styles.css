@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styles for Yoga Pose Detection Page */
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+}
+
+img {
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+}
+
+/* Styles for Results Page */
+header {
+    background-color: #4CAF50;
+    padding: 15px 0;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.result-header {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    th, td {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    th, td {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

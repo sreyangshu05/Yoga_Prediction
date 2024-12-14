@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .result-header {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Results Page</h1>
+    </header>
+
+    <div class="container">
+        <div class="result-header">
+            <h2>Model Performance Summary</h2>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Accuracy</td>
+                    <td>85%</td>
+                </tr>
+                <tr>
+                    <td>Precision</td>
+                    <td>0.87</td>
+                </tr>
+                <tr>
+                    <td>Recall</td>
+                    <td>0.83</td>
+                </tr>
+                <tr>
+                    <td>F1 Score</td>
+                    <td>0.85</td>
+                </tr>
+                <tr>
+                    <td>Training Time</td>
+                    <td>30 minutes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer style="text-align: center; padding: 20px; background-color: #4CAF50; color: white;">
+        <p>&copy; 2024 Yoga Pose Classification System | Results Display</p>
+    </footer>
+</body>
+</html>
